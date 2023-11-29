@@ -1,0 +1,204 @@
+/* styles/global.css */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .row {
+    margin-left:-5px;
+    margin-right:-5px;
+  }
+    
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .parent {
+    background: gray;
+    height: 300px;
+    width: 300px;
+    position: relative;
+  }
+  
+  .child {
+    background: orange;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -50px;
+  }
+
+  .navbar {
+    background-color: #1f2833;
+    color: white;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  router-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  router-link:hover {
+    text-decoration: aquamarine;
+  }
+  
+  .home-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+    background-color: #0f141a;
+    margin-bottom: 0%;
+  }
+  
+  .text-container {
+    flex: 1; /* Take up remaining space in the container */
+  }
+  
+  .photo-container {
+    /* width: 300px; Adjust the width as needed */
+    /* border-style: dotted;
+    border-color: red; */
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
+  }
+
+  img {
+    object-fit: cover;
+  }
+  /*Style for skills section*/
+  .skills-container {
+    /* background-color: rgba(255, 68, 0, 0.167); */
+    background-color: #283341;
+  }
+  
+  .skills-table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 110%;
+    /* border: 5px solid #ddd; */
+  }
+
+  .skills-para {
+    font-weight: bold;
+    color:white;
+  }
+  .main-table {
+    margin-left: none;
+    margin-right: none;
+    width: 80%;
+  }
+
+  .main-table-section {
+    text-align: right;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    font-family: Roboto;
+  }
+
+  th, td {
+    padding: 20px;
+    /* border: 3px solid black; */
+  }
+
+  /* Add additional styling for text, links, and photo as needed */
+  h1 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .nav-buttons {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    width: 5%;
+    height: fit-content;
+  }
+
+  .nav-buttons:hover {
+    background-color: rgba(255, 255, 255, 0.336);
+  }
+
+  .contact-button {
+    width: 150px; 
+    height: 50px; 
+    font-size: large;
+    font-weight: bold; 
+    border-radius: 30px;
+    background-color: #1f2833;
+    border-color: white;
+    border-width: 3px;
+    color: white;
+  }
+
+  .contact-button:hover {
+    background-color: rgba(255, 255, 255, 0.235);
+    border-color: rgba(255, 255, 255, 0.235);
+    font-weight: 500;
+  }
+  
+  /* router-link {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  router-link:hover {
+    background-color: #555;
+  } */
+
+  footer {
+    text-align: center;
+    width: 100%;
+  }
+  input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
