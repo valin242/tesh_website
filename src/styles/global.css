@@ -93,6 +93,17 @@ body {
     /* background-color: rgba(255, 68, 0, 0.167); */
     background-color: #283341;
   }
+
+  .rounded-container {
+    width: 150px;
+    height: 60px; 
+    padding: 2%;
+    background-color: rgb(231, 138, 24);
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
   
   .skills-table {
     margin-left: auto;

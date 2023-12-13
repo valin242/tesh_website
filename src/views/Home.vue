@@ -78,31 +78,37 @@
                     <td>
                         <table class="skills-table">
                             <tr>
-                                <td style="text-align: center;">
-                                    <img src="../assets/3d_printing.jpg" alt="" width="125" height="125" style="border-radius: 50%;" >
-                                    <p class="skills-para">Scientific Writing</p>
+                                <td>
+                                    <div class="rounded-container">
+                                    <p>Scientific Writing</p>
+                                    </div>
                                 </td>
-                                <td style="text-align: center;">
-                                    <img src="../assets/3d_printing.jpg" alt="" width="125" height="125" style="border-radius: 50%;" >
+                                <td>
+                                    <div class="rounded-container">
                                     <p class="skills-para">Prototyping</p>
+                                    </div>
                                 </td>
-                                <td style="text-align: center;">
-                                    <img src="../assets/bioinformatics_image.jpg" alt="" width="125" height="125" style="border-radius: 50%;" >
+                                <td>
+                                    <div class="rounded-container">
                                     <p class="skills-para">Bioinformatics</p>
+                                    </div>
                                 </td>
                             </tr>
                             <tr>
-                                <td style="text-align: center;">
-                                    <img src="../assets/bioinformatics_image.jpg" alt="" width="125" height="125" style="border-radius: 50%;" >
-                                    <p class="skills-para">Exploratory Data <br> Aanalysis</p>
+                                <td>
+                                    <div class="rounded-container" style="padding: 0.25%;">
+                                    <p class="skills-para">Exploratory Data Analysis</p>
+                                    </div>
                                 </td>
-                                <td style="text-align: center;">
-                                    <img src="../assets/bioinformatics_image.jpg" alt="" width="125" height="125" style="border-radius: 50%;" >
+                                <td>
+                                    <div class="rounded-container">
                                     <p class="skills-para">Biomaterials</p>
+                                    </div>
                                 </td>
-                                <td style="text-align: center;">
-                                    <img src="../assets/bioinformatics_image.jpg" alt="" width="125" height="125" style="border-radius: 50%;" >
+                                <td>
+                                    <div class="rounded-container">
                                     <p class="skills-para">Materials Science</p>
+                                    </div>
                                 </td>
                             </tr>
                         </table>
@@ -114,31 +120,37 @@
                     <td>
                         <table class="skills-table">
                             <tr>
-                                <td style="text-align: center;">
-                                    <img src="../assets/communication.jpg" alt="" width="125" height="125" style="border-radius: 50%;" >
+                                <td>
+                                    <div class="rounded-container" style="background-color:aqua;">
                                     <p class="skills-para">Communication</p>
+                                    </div>
                                 </td>
-                                <td style="text-align: center;">
-                                    <img src="../assets/project_man2.png" alt="" width="125" height="125" style="border-radius: 50%;" >
+                                <td>
+                                    <div class="rounded-container" style="padding: 0.25%;background-color:aqua">
                                     <p class="skills-para">Project Management</p>
+                                    </div>
                                 </td>
-                                <td style="text-align: center;">
-                                    <img src="../assets/communication.jpg" alt="" width="125" height="125" style="border-radius: 50%;" >
+                                <td>
+                                    <div class="rounded-container" style="background-color:aqua;">
                                     <p class="skills-para">Problem-Solving</p>
+                                    </div>
                                 </td>
                             </tr>
                             <tr>
-                                <td style="text-align: center;">
-                                    <img src="../assets/communication.jpg" alt="" width="125" height="125" style="border-radius: 50%;" >
+                                <td>
+                                    <div class="rounded-container" style="background-color:aqua;">
                                     <p class="skills-para">Leadership</p>
+                                    </div>
                                 </td>
-                                <td style="text-align: center;">
-                                    <img src="../assets/communication.jpg" alt="" width="125" height="125" style="border-radius: 50%;" >
+                                <td>
+                                    <div class="rounded-container" style="background-color:aqua;">
                                     <p class="skills-para">Adaptibility</p>
+                                    </div>
                                 </td>
-                                <td style="text-align: center;">
-                                    <img src="../assets/communication.jpg" alt="" width="125" height="125" style="border-radius: 50%;" >
+                                <td>
+                                    <div class="rounded-container" style="background-color:aqua;">
                                     <p class="skills-para">Creativity</p>
+                                    </div>
                                 </td>
                             </tr>
                         </table>
