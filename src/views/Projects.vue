@@ -1,19 +1,18 @@
 <template>
-    <!-- Under each project use the <i class="fa-brands fa-whatever"></i> to call the small icons under each project-->
-<div class="grid-container">
-  <div class="header">
-    <h2>Header</h2>
-  </div>
-  
-  <div class="left" style="background-color:#aaa;">Column</div>
-  <div class="middle" style="background-color:#bbb;">Column</div>  
-  <div class="right" style="background-color:#ccc;">Column</div>
-  
-  <div class="footer">
-  <p>Footer</p>
-  </div>
-</div>
+  <!-- Under each project use the <i class="fa-brands fa-whatever"></i> to call the small icons under each project-->
+  <div class="grid-container">
+    <div class="header">
+      <h2>Header</h2>
+    </div>
 
+    <div class="left" style="background-color:#aaa;">Column</div>
+    <div class="middle" style="background-color:#bbb;">Column</div>
+    <div class="right" style="background-color:#ccc;">Column</div>
+
+    <div class="footer">
+      <p>Footer</p>
+    </div>
+  </div>
 </template>
 
 <script setup>
@@ -42,18 +41,19 @@ body {
 /* The grid container */
 .grid-container {
   display: grid;
-  grid-template-areas: 
-    'header header header header header header' 
-    'left left middle middle right right' 
+  grid-template-areas:
+    'header header header header header header'
+    'left left middle middle right right'
     'footer footer footer footer footer footer';
   /* grid-column-gap: 10px; - if you want gap between the columns */
-} 
+}
 
 .left,
 .middle,
 .right {
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 300px;
+  /* Should be removed. Only for demonstration */
 }
 
 /* Style the left column */
@@ -81,12 +81,12 @@ body {
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
-  .grid-container  {
-    grid-template-areas: 
-      'header header header header header header' 
-      'left left left left left left' 
-      'middle middle middle middle middle middle' 
-      'right right right right right right' 
+  .grid-container {
+    grid-template-areas:
+      'header header header header header header'
+      'left left left left left left'
+      'middle middle middle middle middle middle'
+      'right right right right right right'
       'footer footer footer footer footer footer';
   }
 }
