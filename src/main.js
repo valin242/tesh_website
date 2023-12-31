@@ -4,7 +4,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
+import Vuetify from 'vuetify'
+import 'vuetify/dist/vuetify.min.css' // Ensure you are using css-loader
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
