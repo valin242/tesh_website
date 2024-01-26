@@ -1,20 +1,17 @@
 <template>
-    <div>
-        <section>
-            <div class="home-container">
-                <form>
-                    <input type="text" name="search" placeholder="Search..." style="background-color:  rgba(255, 255, 255, 0.135); border-color:  rgba(255, 255, 255, 0.135);">
-                </form>
-            </div>
+    <main>
+        <section class="homepage-head">
             <div class="home-container">
                 <div class="text-container">
-                    <h1 style="color: #66fcf1; font-size: 450%; font-family: Roboto; margin-bottom: 0%;">Valinteshley Pierre</h1>
-                    <h3 style="color: white; font-size: 200%; font-family: Roboto;">Research & Data Scientist</h3>
-                    <p style="color: white; font-size: x-large; text-align: justify; font-family: sans-serif;">
-                        Analytical Research Assistant with 8 years collective experience in mechanical & biomedical engineering, data science,
-        and project management. Proficient in application development, statistics, and laboratory processes. Excel at
-        collaborative research, critical thinking, and problem-solving.
-                    </p>
+                    <h1 class="my-name">Valinteshley Pierre</h1>
+                    <h3 class="my-occupation">Research & Data Scientist</h3>
+                    <article class="head-description">
+                        <p id="biography">
+                            Analytical Research Assistant with 8 years collective experience in mechanical & biomedical engineering, data science,
+                            and project management. Proficient in application development, statistics, and laboratory processes. Excel at
+                            collaborative research, critical thinking, and problem-solving.
+                        </p>
+                    </article>
                     <br>
                     <router-link to="/Contact">
                     <button class="contact-button">Contact Me</button>
@@ -27,135 +24,69 @@
         </section>
         <section class="skills-container">
             <br>
-            <h1 style="text-align: center; font-family: sans-serif; color: white; font-size: 250%;">Skills & Expertise</h1>
-            <hr style="width: 10%; height: 5px; background-color: #66fcf1; border-color: #66fcf1;">
-            <table class="main-table">
+            <h1 class="skills-header">Skills & Expertise</h1>
+            <hr class="separator" style="width: 10%; height: 5px; background-color: #66fcf1; border-color: #66fcf1;">
+            <table class="skills-table">
                 <tr>
-                    <td class="main-table-section">Computational</td>
+                    <th class="skills-title" rowspan="2">Computational</th>
                     <td>
-                        <table class="skills-table">
-                            <tr>
-                                <td style="text-align: center;">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="100" width="100"/>
-                                    <p class="skills-para">Python</p>
-                                </td>
-                                <td style="text-align: center;">                                 
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="100" width="100" />
-                                    <p class="skills-para">Pandas</p>
-                                </td>
-                                <td style="text-align: center;">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="100" width="100" />
-                                    <p class="skills-para">Pytorch</p>
-                                </td>
-                                <td style="text-align: center;">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="100" width="100" />
-                                    <p class="skills-para">TensorFlow</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: center;">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="100" width="100" />
-                                    <p class="skills-para">HTML5</p>
-                                </td>
-                                <td style="text-align: center;">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"  height="100" width="100"/>
-                                    <p class="skills-para">Vue.js</p>
-                                </td>
-                                <td style="text-align: center;">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="100" width="100" />
-                                    <p class="skills-para">Firebase</p>
-                                </td>
-                                <td style="text-align: center;">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-plain.svg" height="100" width="100" />
-                                    <p class="skills-para">Adobe Xd</p>
-                                </td>
-                            </tr>
-                        </table>
+                        <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                        <p class="skills-program">Python</p>
+                    </td>
+                    <td>
+                        <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" />
+                        <p class="skills-program">Pandas</p>
+                    </td>
+                    <td>
+                        <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" />
+                        <p class="skills-program">Pytorch</p>
+                    </td>
+                    <td>
+                        <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" />
+                        <p class="skills-program">TensorFlow</p>
                     </td>
                 </tr>
                 <tr>
-                    <td class="main-table-section">Research</td>
                     <td>
-                        <table class="skills-table">
-                            <tr>
-                                <td>
-                                    <div class="rounded-container">
-                                    <p>Scientific Writing</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="rounded-container">
-                                    <p class="skills-para">Prototyping</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="rounded-container">
-                                    <p class="skills-para">Bioinformatics</p>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="rounded-container" style="padding: 0.25%;">
-                                    <p class="skills-para">Exploratory Data Analysis</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="rounded-container">
-                                    <p class="skills-para">Biomaterials</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="rounded-container">
-                                    <p class="skills-para">Materials Science</p>
-                                    </div>
-                                </td>
-                            </tr>
-                        </table>
-                        
+                        <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+                        <p class="skills-program">HTML5</p>
+                    </td>
+                    <td>
+                        <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" />
+                        <p class="skills-program">Vue.js</p>
+                    </td>
+                    <td>
+                        <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
+                        <p class="skills-program">Firebase</p>
+                    </td>
+                    <td>
+                        <img class="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-plain.svg" />
+                        <p class="skills-program">Adobe XD</p>
                     </td>
                 </tr>
                 <tr>
-                    <td class="main-table-section">Soft Skills</td>
-                    <td>
-                        <table class="skills-table">
-                            <tr>
-                                <td>
-                                    <div class="rounded-container" style="background-color:aqua;">
-                                    <p class="skills-para">Communication</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="rounded-container" style="padding: 0.25%;background-color:aqua">
-                                    <p class="skills-para">Project Management</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="rounded-container" style="background-color:aqua;">
-                                    <p class="skills-para">Problem-Solving</p>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="rounded-container" style="background-color:aqua;">
-                                    <p class="skills-para">Leadership</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="rounded-container" style="background-color:aqua;">
-                                    <p class="skills-para">Adaptibility</p>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="rounded-container" style="background-color:aqua;">
-                                    <p class="skills-para">Creativity</p>
-                                    </div>
-                                </td>
-                            </tr>
-                        </table>
-                        
+                    <th class="skills-title" rowspan="2">Research</th>
+                    <td class="skills-research"><div class="rounded-container research-skills">Scientific Research</div></td>
+                    <td class="skills-research"><div class="rounded-container research-skills">Prototyping</div></td>
+                    <td class="skills-research"><div class="rounded-container research-skills">Bioinformatics</div></td>
+                </tr>
+                <tr>
+                    <td class="skills-research">
+                        <div class="rounded-container research-skills"><p>Exploratory Data Analysis</p></div>
                     </td>
+                    <td class="skills-research"><div class="rounded-container research-skills">Biomaterials</div></td>
+                    <td class="skills-research"><div class="rounded-container research-skills">Materials Science</div></td>
+                </tr>
+                <tr>
+                    <th class="skills-title" rowspan="2">Soft Skills</th>
+                    <td class="skills-research"><div class="rounded-container soft-skills">Communication</div></td>
+                    <td class="skills-research"><div class="rounded-container soft-skills">Project Management</div></td>
+                    <td class="skills-research"><div class="rounded-container soft-skills">Problem-Solving</div></td>
+                </tr>
+                <tr>
+                    <td class="skills-research"><div class="rounded-container soft-skills">Leadership</div></td>
+                    <td class="skills-research"><div class="rounded-container soft-skills">Adaptibility</div></td>
+                    <td class="skills-research"><div class="rounded-container soft-skills">Creativity</div></td>
                 </tr>
             </table>
         </section>
@@ -171,8 +102,8 @@
                 <br>
             </article>
         </section>
-    </div>
-  </template>
+    </main>
+</template>
   
 <script setup>
 // import { ref } from 'vue'
